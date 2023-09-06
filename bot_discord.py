@@ -8,7 +8,7 @@ from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Cài đặt token Discord và token của mô hình GPT-3
-TOKEN = "MTE0ODY1NTE1NzMwODA1MTU3Nw.GKznbd.UPQnviaefTfQZS6fIDfHVUb_MMqhPdhYXXiCWI"
+TOKEN = "### Your token"
 
 # Khởi tạo bot với Intents
 intents = discord.Intents.default()
